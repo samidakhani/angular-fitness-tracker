@@ -1,0 +1,8 @@
+<div fxFlex fxLayout="column" fxLayoutAlign="center center" style="padding:2%"
+  fxLayoutGap="2%">
+  <mat-progress-spinner mode="determinate" [value]="progress"></mat-progress-spinner>
+  <mat-label>
+    <h1>{{progress}}%</h1>
+  </mat-label>
+  <button mat-raised-button color="accent" (click)="onTraningStop()">Stop</button>
+</div>
